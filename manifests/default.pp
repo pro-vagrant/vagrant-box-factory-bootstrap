@@ -14,7 +14,9 @@ apache::vhost { 'app.lh':
     docroot_group => 'vagrant',
 }
 
-include nodejs
+class {
+    'nodejs':
+}
 
 exec { 'install less node module':
     path    => '/usr/bin:/bin:/usr/sbin:/sbin',
