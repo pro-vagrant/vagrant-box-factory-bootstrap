@@ -10,6 +10,7 @@ sudo puppet module install gajdaw-ubuntu --version 0.1.13 --force
 sudo puppet module install gajdaw-diverse_functions --version 0.1.1 --force
 
 sudo puppet module install gajdaw-environment --version 0.1.4 --force
-sudo puppet module install gajdaw-nodejs --force --version 0.1.2
+sudo puppet module install gajdaw-nodejs --force --version 0.2.2
+
 
 
